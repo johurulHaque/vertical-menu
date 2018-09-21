@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("/image/images.jpg");
+    height: 80%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+Capture.PNG
+
+.menu > ul {
+    margin-left: 0px;
+}
+
+.menu > ul > li {
+    display: block;
+    float: left;
+    list-style-type: none;
+    text-align: center;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 35px;
+    background-color: deepskyblue;
+    opacity: .6;
+    color: white;
+    border: 1px;
+    border-style: solid;
+    border-color: greenyellow;
+}
+
+.menu > ul > li > a {
+    text-decoration: none;
+    padding-left: 96px;
+    padding-right: 96px;
+    color: white;
+}
+
+.menu a:hover {
+
+    background-color: green;
+    color: red;
+
+}
+
+.footer{
+    
+
+    background-color: black;
+}
